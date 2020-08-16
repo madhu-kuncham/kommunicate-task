@@ -9,8 +9,10 @@ export const usersModal = ({ openUserDetails, closeUserModal, selectedUser }) =>
                 <div className='userdata'>
                     <ul>
                         <li classname='word-spacing'>{selectedUser.email}</li>
-                        <li className='word-spacing'>{selectedUser.first_name} {selectedUser.last_name}</li>
-                        <li className='word-spacing'><img src={selectedUser.avatar} width="45" height="35" /></li>
+                        <br />
+                        <li className='word-spacing'>{selectedUser.first_name}{selectedUser.last_name}</li>
+                        <br />
+                        <li className='modal-image'><img src={selectedUser.avatar} width="45" height="35" /></li>
                     </ul>
 
                 </div>

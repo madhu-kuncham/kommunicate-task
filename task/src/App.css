@@ -56,7 +56,6 @@ body {
   color:4caf50;
   text-align: center;
   padding: 8px 12px;
-
 }
 
 .usermodal {
@@ -76,6 +75,7 @@ body {
 .word-spacing {
   word-spacing: 10px;
 }
+
 
 @media (min-width: 600px) {
   .Modal {
